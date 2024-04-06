@@ -1,8 +1,9 @@
-'use client';
-import { createTheme } from "@mui/material/styles";
+'use client'
 
-const theme = createTheme({
+import { createTheme } from '@mui/material'
 
+export const theme = createTheme({
+    
     palette:{
         primary: {
             main: "#1D5E69",
@@ -40,7 +41,4 @@ const theme = createTheme({
             color: "black"
         },
     },
-
 })
-
-export default theme;
